@@ -1,1 +1,1 @@
-web: gunicorn st-take-api.wsgi --log-file -
+web: gunicorn profiles_project.wsgi --log-file -
