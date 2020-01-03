@@ -1,0 +1,1 @@
+web: gunicorn st-take-api.wsgi --log-file -

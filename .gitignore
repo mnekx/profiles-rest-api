@@ -135,3 +135,6 @@ dmypy.json
 # End of https://www.gitignore.io/api/python,vagrant
 eb-package.zip
 static/
+
+### Initial django settings configuration file
+settings.ini
