@@ -12,5 +12,6 @@ router.register('feed', views.UserProfileFeedViewSet)
 urlpatterns = [
     path('hello-view/', views.HelloAPIView.as_view()),
     path('login/', views.UserLoginApiView.as_view()),
-    path('', include(router.urls))
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='restframework'))
 ]
